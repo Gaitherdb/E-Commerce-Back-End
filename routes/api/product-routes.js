@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   // find all products
   try {
     const productData = await Product.findAll({
-      include: [{ model: Category }, {model: Tag}],
+      include: [{ model: Category }, {model: Tag, through: {attributes:["id","product_id", "tag_id"]}}],
     });
     res.status(200).json(productData);
   } catch (err) {
@@ -21,7 +21,7 @@ router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   try {
     const productData = await Product.findByPk(req.params.id, {
-      include: [{ model: Category }, {model: Tag}],
+      include: [{ model: Category }, {model: Tag, through: {attributes:["id","product_id", "tag_id"]}}],
     });
 
     if (!productData) {
