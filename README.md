@@ -4,7 +4,7 @@
   ## Description
   An application that is the back end for an acting e-commerce site. Built with JavaScript, the app uses an Express.js API to use Sequelize to interact with a MySQL database. The app stores categories, products, and tags in the database, and functions to retrieve the desired information about each table and their corresponding tables, while also being able to make edits.  
   
-  Using Insomnia, an API client, a user is able to GET, GET by ID, POST, PUT by ID, & DELETE by ID either a category, product, or tag. When updating or creating a product or a tag, one is able to also include the corresponding products or tags. 
+  Using Insomnia, an API client, a user is able to GET, GET by ID, POST, PUT by ID, & DELETE by ID either a category, product, or tag. When editing a product or a tag, or a product or a category, one is able to also include the corresponding id. 
 
   While creating this app, I used MySQL to source my schema database, Node.js to run the server javascript file which makes my data live and editable via an API client.
 
