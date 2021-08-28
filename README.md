@@ -2,7 +2,7 @@
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  An application that is the back end for an acting e-commerce site. Built with JavaScript, the app uses an Express.js API to use Sequelize to interact with a MySQL database. The app stores categories, products, and tags in the database, and functions to retrieve the desired information about each table and their corresponding tables.  
+  An application that is the back end for an acting e-commerce site. Built with JavaScript, the app uses an Express.js API to use Sequelize to interact with a MySQL database. The app stores categories, products, and tags in the database, and functions to retrieve the desired information about each table and their corresponding tables, while also being able to make edits.  
   
   Using Insomnia, an API client, a user is able to GET, GET by ID, POST, PUT by ID, & DELETE by ID either a category, product, or tag. When updating or creating a product or a tag, one is able to also include the corresponding products or tags. 
 
