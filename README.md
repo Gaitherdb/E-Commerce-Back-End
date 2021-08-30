@@ -28,7 +28,7 @@
   ## Usage
   Set the path to the E-Commerce-Back-End folder in the terminal and log in to MySQL and source the schema.sql by running `source db/schema.sql`. Run `Node seeds/index.js` to source the seeds folder, if you want preset data.  Then run the server.js file by typing `node server.js`. Access the API data through an API client like Insomnia with GET, POST, PUT, & DELETE.
 
-  Walkthrough video: [Walkthrough]()
+  Walkthrough video: [Walkthrough](https://drive.google.com/file/d/1soruGKeTdcG8MpBLWYpwO_SLj0rBRGgn/view)
 
   ## License  
   This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
